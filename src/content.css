@@ -1,0 +1,32 @@
+.content{
+    margin: fixed;
+    width: 1000px;
+    height: 200px;
+    border-radius: 3px;
+    border:  1px solid #df4b4b;
+    text-align: left;
+    position: relative;
+    left:10%;
+  
+    }
+
+ 
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #343642;
+    height: 20px;
+    border-radius: 2px;
+    color:wheat;
+  }
+  
+  .no-outline:focus {
+    outline: none;
+  }
+      
+  ::placeholder {
+    color: #979c9c;
+    
+  }
